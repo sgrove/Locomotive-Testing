@@ -1,0 +1,10 @@
+- content_for :head do
+  = include_javascripts :edit_custom_fields, :contents
+  = include_stylesheets :fancybox
+
+= f.foldable_inputs :name => :meta do
+
+  = f.input :meta_keywords
+  = f.input :meta_description
+
+= render 'admin/custom_fields/custom_form', :form => f, :title => :attributes, :parent => @content_type
