@@ -28,7 +28,7 @@ production:
   # database: <%= ENV['MONGOID_DATABASE'] %>
 
   # heroku
-   uri: <%= ENV['mongodb://jenius:password@flame.mongohq.com:27086/locomotive-test'] %>
+  # uri: <%= ENV['mongodb://jenius:password@flame.mongohq.com:27086/locomotive-test'] %>
 
   # bushido (mongohq_url will also work)
   uri: <%= ENV['MONGODB_URL'] %>
