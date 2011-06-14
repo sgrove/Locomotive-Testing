@@ -6,5 +6,5 @@
   "mongodb": true,
   "start_page": "admin/pages",
   "project_name": "locomotive",
-  "premium": "true"
+  "premium": true
 }
