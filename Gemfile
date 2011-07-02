@@ -52,7 +52,7 @@ group :test, :development do
 end
 
 group :production do
-  gem 'bushido'
+  gem 'bushido', '0.0.29'
 end
 
 group :test do
